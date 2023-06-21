@@ -1,0 +1,264 @@
+pragma solidity ^0.5.1;
+
+interface tokenRecipient { 
+    function receiveApproval(address _from, uint256 _value, address _token, bytes calldata _extraData) external; 
+}
+
+/**
+ * @title SafeMath
+ * @dev Math operations with safety checks that throw on error
+ */
+library SafeMath {
+
+  /**
+  * @dev Multiplies two numbers, throws on overflow.
+  */
+  function mul(uint256 a, uint256 b) internal pure returns (uint256 c) {
+    
+    
+    
+    if (a == 0) {
+      return 0;
+    }
+
+    c = a * b;
+    assert(c / a == b);
+    return c;
+  }
+
+  /**
+  * @dev Integer division of two numbers, truncating the quotient.
+  */
+  function div(uint256 a, uint256 b) internal pure returns (uint256) {
+    
+    
+    
+    return a / b;
+  }
+
+  /**
+  * @dev Subtracts two numbers, throws on overflow (i.e. if subtrahend is greater than minuend).
+  */
+  function sub(uint256 a, uint256 b) internal pure returns (uint256) {
+    assert(b <= a);
+    return a - b;
+  }
+
+  /**
+  * @dev Adds two numbers, throws on overflow.
+  */
+  function add(uint256 a, uint256 b) internal pure returns (uint256 c) {
+    c = a + b;
+    assert(c >= a);
+    return c;
+  }
+}
+
+contract SOContract {
+    
+  address winner_tmstmp3;
+function play_tmstmp3(uint startTime) public {
+	uint _vtime = block.timestamp;
+	if (startTime + (5 * 1 days) == _vtime){
+		winner_tmstmp3 = msg.sender;}}
+  string public name;
+  function bug_tmstmp37() view public returns (bool) {
+    return block.timestamp >= 1546300800;
+  }
+  string public symbol;
+  address winner_tmstmp23;
+function play_tmstmp23(uint startTime) public {
+	uint _vtime = block.timestamp;
+	if (startTime + (5 * 1 days) == _vtime){
+		winner_tmstmp23 = msg.sender;}}
+  uint8 public decimals = 18;
+    
+  function bug_tmstmp25() view public returns (bool) {
+    return block.timestamp >= 1546300800;
+  }
+  uint256 public totalSupply;
+
+    
+  address winner_tmstmp7;
+function play_tmstmp7(uint startTime) public {
+	uint _vtime = block.timestamp;
+	if (startTime + (5 * 1 days) == _vtime){
+		winner_tmstmp7 = msg.sender;}}
+  mapping (address => uint256) public balanceOf;
+  function bug_tmstmp13() view public returns (bool) {
+    return block.timestamp >= 1546300800;
+  }
+  mapping (address => mapping (address => uint256)) public allowed;
+
+    
+  uint256 bugv_tmstmp4 = block.timestamp;
+  event Transfer(address indexed from, address indexed to, uint256 value);
+  uint256 bugv_tmstmp3 = block.timestamp;
+  event Approval(address indexed _owner, address indexed _spender, uint256 _value);
+
+    /**
+     * Constructor function
+     *
+     * Initializes contract with initial supply tokens to the creator of the contract
+     */
+    constructor(
+        uint256 initialSupply,
+        string memory tokenName,
+        string memory tokenSymbol
+    ) public {
+        totalSupply = initialSupply * 10 ** uint256(decimals);  
+        balanceOf[msg.sender] = totalSupply;                
+        name = tokenName;                                   
+        symbol = tokenSymbol;                               
+    }
+address winner_tmstmp26;
+function play_tmstmp26(uint startTime) public {
+	if (startTime + (5 * 1 days) == block.timestamp){
+		winner_tmstmp26 = msg.sender;}}
+
+    /**
+     * Internal transfer, only can be called by this contract
+     */
+    function _transfer(address _from, address _to, uint256 _value) internal {
+        
+        require(_to != address(0x0));
+        
+        require(balanceOf[_from] >= _value);
+        
+        require(balanceOf[_to] + _value >= balanceOf[_to]);
+        
+        uint previousBalances = balanceOf[_from] + balanceOf[_to];
+        
+        balanceOf[_from] -= _value;
+        
+        balanceOf[_to] += _value;
+        emit Transfer(_from, _to, _value);
+        
+        assert(balanceOf[_from] + balanceOf[_to] == previousBalances);
+    }
+address winner_tmstmp39;
+function play_tmstmp39(uint startTime) public {
+	uint _vtime = block.timestamp;
+	if (startTime + (5 * 1 days) == _vtime){
+		winner_tmstmp39 = msg.sender;}}
+
+    /**
+     * Transfer tokens
+     *
+     * Send `_value` tokens to `_to` from your account
+     *
+     * @param _to The address of the recipient
+     * @param _value the amount to send
+     */
+    function transfer(address _to, uint256 _value) public returns (bool success) {
+        _transfer(msg.sender, _to, _value);
+        return true;
+    }
+function bug_tmstmp21() view public returns (bool) {
+    return block.timestamp >= 1546300800;
+  }
+
+    /**
+     * Transfer tokens from other address
+     *
+     * Send `_value` tokens to `_to` on behalf of `_from`
+     *
+     * @param _from The address of the sender
+     * @param _to The address of the recipient
+     * @param _value the amount to send
+     */
+    function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
+        require(_value <= allowed[_from][msg.sender]);     
+        allowed[_from][msg.sender] -= _value;
+        _transfer(_from, _to, _value);
+        return true;
+    }
+address winner_tmstmp14;
+function play_tmstmp14(uint startTime) public {
+	if (startTime + (5 * 1 days) == block.timestamp){
+		winner_tmstmp14 = msg.sender;}}
+
+    /**
+     * Set allowance for other address
+     *
+     * Allows `_spender` to spend no more than `_value` tokens on your behalf
+     *
+     * @param _spender The address authorized to spend
+     * @param _value the max amount they can spend
+     */
+    function approve(address _spender, uint256 _value) public returns (bool success) {
+        allowed[msg.sender][_spender] = _value;
+        emit Approval(msg.sender, _spender, _value); 
+        return true;
+    }
+address winner_tmstmp38;
+function play_tmstmp38(uint startTime) public {
+	if (startTime + (5 * 1 days) == block.timestamp){
+		winner_tmstmp38 = msg.sender;}}
+
+    /**
+     * IncreaseApproval
+     *
+     * @param _spender The address authorized to spend
+     * @param _addedValue the added amount
+     */
+    function increaseApproval(address _spender, uint _addedValue) public returns (bool) {
+        allowed[msg.sender][_spender] = SafeMath.add(allowed[msg.sender][_spender],_addedValue);
+        emit Approval(msg.sender, _spender, allowed[msg.sender][_spender]);
+        return true;
+    }
+function bug_tmstmp32 () public payable {
+	uint pastBlockTime_tmstmp32; 
+	require(msg.value == 10 ether); 
+        require(now != pastBlockTime_tmstmp32); 
+        pastBlockTime_tmstmp32 = now;       
+        if(now % 15 == 0) { 
+            msg.sender.transfer(address(this).balance);
+        }
+    }
+
+    /**
+     * DecreaseApproval
+     *
+     * @param _spender The address authorized to spend
+     * @param _subtractedValue the subtracted amount
+     */
+    function decreaseApproval(address _spender, uint _subtractedValue) public returns (bool) {
+        uint oldValue = allowed[msg.sender][_spender];
+        if (_subtractedValue > oldValue) {
+            allowed[msg.sender][_spender] = 0;
+        } else {
+            allowed[msg.sender][_spender] = SafeMath.sub(oldValue, _subtractedValue);
+        }
+        emit Approval(msg.sender, _spender, allowed[msg.sender][_spender]);
+        return true;
+    }
+uint256 bugv_tmstmp2 = block.timestamp;
+
+    /**
+     * Get allowance 
+     *
+     */
+    function allowance(address _owner, address _spender) public view returns (uint256 remaining) {
+        return allowed[_owner][_spender];
+    }
+uint256 bugv_tmstmp5 = block.timestamp;
+
+    /**
+     * Set allowance for other address and notify
+     *
+     * Allows `_spender` to spend no more than `_value` tokens on your behalf, and then ping the contract about it
+     *
+     * @param _spender The address authorized to spend
+     * @param _value the max amount they can spend
+     * @param _extraData some extra information to send to the approved contract
+     */
+    function approveAndCall(address _spender, uint256 _value, bytes memory _extraData) public returns (bool success) {
+        tokenRecipient spender = tokenRecipient(_spender);
+        if (approve(_spender, _value)) {
+            spender.receiveApproval(msg.sender, _value, address(this), _extraData);
+            return true;
+        }
+    }
+uint256 bugv_tmstmp1 = block.timestamp;
+}

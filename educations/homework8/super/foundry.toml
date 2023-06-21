@@ -1,0 +1,12 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+eth_rpc_url = "https://da.chainlight.io/rw/3/rpc/3_10790_958d6305dd11ff3379d0ce4f530f00118fe9a2402bd6a6c3ebdb8f670732914b"
+fork_block_number = 24684670
+#fork_block_number = 27039966
+
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+# https://twilight-wiser-arm.matic.quiknode.pro/d780e7ffa0c7e7acd7f3998c36f11b24aedda50d/
+# https://old-still-pool.matic.quiknode.pro/8a3867f3c67a5987979e8c1a53cd6af962cf58b9/

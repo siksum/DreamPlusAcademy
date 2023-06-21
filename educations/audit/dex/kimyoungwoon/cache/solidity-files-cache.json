@@ -1,0 +1,1196 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "src",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1679757024254,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.23",
+      "artifacts": {
+        "DSTest": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Test.sol": {
+      "lastModificationDate": 1679757024255,
+      "contentHash": "3ee02c3ffeadcdaad643d8142c903897",
+      "sourceName": "lib/forge-std/src/Test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "Test": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Test.sol/Test.json"
+        },
+        "stdError": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Test.sol/stdError.json"
+        },
+        "stdMath": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Test.sol/stdMath.json"
+        },
+        "stdStorage": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Test.sol/stdStorage.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Vm.sol": {
+      "lastModificationDate": 1679757024256,
+      "contentHash": "65e64588f64f0dc4a71f37c88a1450d6",
+      "sourceName": "lib/forge-std/src/Vm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Vm": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Vm.sol/Vm.json"
+        }
+      }
+    },
+    "lib/forge-std/src/console.sol": {
+      "lastModificationDate": 1679757024256,
+      "contentHash": "a8a3e1d82b4d2b38345b38df0d9f8ea4",
+      "sourceName": "lib/forge-std/src/console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "src/console.sol/console.json"
+        }
+      }
+    },
+    "lib/forge-std/src/console2.sol": {
+      "lastModificationDate": 1679757024256,
+      "contentHash": "267fc3ac236c117b691dd9bb22f6c899",
+      "sourceName": "lib/forge-std/src/console2.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console2": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "console2.sol/console2.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol": {
+      "lastModificationDate": 1679757024274,
+      "contentHash": "ee1cd296e049da9a26bdb08e23a9036a",
+      "sourceName": "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ReentrancyGuard": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ReentrancyGuard.sol/ReentrancyGuard.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1679757024275,
+      "contentHash": "834a0dde221759af42b030253315b086",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1679757024275,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "IERC20.sol/IERC20.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1679757024275,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20Metadata": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "IERC20Metadata.sol/IERC20Metadata.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+      "lastModificationDate": 1679757024278,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Context": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Context.sol/Context.json"
+        }
+      }
+    },
+    "script/actions/Base.s.sol": {
+      "lastModificationDate": 1679757024329,
+      "contentHash": "9edfadf50896072131305763433e9df6",
+      "sourceName": "script/actions/Base.s.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.17",
+      "artifacts": {
+        "Base.s": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Base.s.sol/Base.s.json"
+        }
+      }
+    },
+    "script/deploy.s.sol": {
+      "lastModificationDate": 1679757024329,
+      "contentHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "sourceName": "script/deploy.s.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": null,
+      "artifacts": {
+        "deploy.s": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "deploy.s.sol/deploy.s.json"
+        }
+      }
+    },
+    "src/Dex.sol": {
+      "lastModificationDate": 1679769694100,
+      "contentHash": "cf1e559f3a5529ead825b7a530ccee92",
+      "sourceName": "src/Dex.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/console.sol",
+        "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/interfaces/IDex.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Dex": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Dex.sol/Dex.json"
+        }
+      }
+    },
+    "src/interfaces/IDex.sol": {
+      "lastModificationDate": 1679757024329,
+      "contentHash": "256e1dabd49d3b6f495e6beb6649e914",
+      "sourceName": "src/interfaces/IDex.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "IDex": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "IDex.sol/IDex.json"
+        }
+      }
+    },
+    "test/BaseTest.sol": {
+      "lastModificationDate": 1679757024329,
+      "contentHash": "4c1922deeb91b3c22d7c617a756c538c",
+      "sourceName": "test/BaseTest.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "test/utils/Utilities.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "BaseTest": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "BaseTest.sol/BaseTest.json"
+        }
+      }
+    },
+    "test/DEX.t.sol": {
+      "lastModificationDate": 1679767473491,
+      "contentHash": "39fe4adc2c19df1c691dbf618ba9dd2a",
+      "sourceName": "test/DEX.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": null,
+      "artifacts": {
+        "DEX.t": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "DEX.t.sol/DEX.t.json"
+        }
+      }
+    },
+    "test/test.t.sol": {
+      "lastModificationDate": 1679769879676,
+      "contentHash": "7912fe8b188768012cfdac84dcf852c8",
+      "sourceName": "test/test.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/Dex.sol",
+        "src/interfaces/IDex.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "CustomERC20": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "test.t.sol/CustomERC20.json"
+        },
+        "DexTest": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "test.t.sol/DexTest.json"
+        }
+      }
+    },
+    "test/utils/Console.sol": {
+      "lastModificationDate": 1679757024329,
+      "contentHash": "08ba17b0cc805ce126c0f35e952a80b8",
+      "sourceName": "test/utils/Console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "console": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Console.sol/console.json"
+        }
+      }
+    },
+    "test/utils/ICheatCodes.sol": {
+      "lastModificationDate": 1679757024329,
+      "contentHash": "d9900df7d695cc83137222cd3d35f63a",
+      "sourceName": "test/utils/ICheatCodes.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": ">=0.7.0, <0.9.0",
+      "artifacts": {
+        "AMP": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/AMP.json"
+        },
+        "AnyswapV1ERC20": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/AnyswapV1ERC20.json"
+        },
+        "AnyswapV4Router": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/AnyswapV4Router.json"
+        },
+        "CErc20Interface": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/CErc20Interface.json"
+        },
+        "DODODVM": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/DODODVM.json"
+        },
+        "DataTypes": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/DataTypes.json"
+        },
+        "ERC1820Registry": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ERC1820Registry.json"
+        },
+        "FToken": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/FToken.json"
+        },
+        "Flippaz": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/Flippaz.json"
+        },
+        "GymSinglePool": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/GymSinglePool.json"
+        },
+        "GymToken": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/GymToken.json"
+        },
+        "I88mph": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/I88mph.json"
+        },
+        "IACOWriter": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IACOWriter.json"
+        },
+        "IARTH": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IARTH.json"
+        },
+        "IARTHUSD": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IARTHUSD.json"
+        },
+        "IAaveFlashloan": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IAaveFlashloan.json"
+        },
+        "IAggregator": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IAggregator.json"
+        },
+        "IAirdrop": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IAirdrop.json"
+        },
+        "IAkutarNFT": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IAkutarNFT.json"
+        },
+        "IBAYCi": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBAYCi.json"
+        },
+        "IBacon": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBacon.json"
+        },
+        "IBadGuysRPFERC721": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBadGuysRPFERC721.json"
+        },
+        "IBalancerVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBalancerVault.json"
+        },
+        "IBaseV1Router01": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBaseV1Router01.json"
+        },
+        "IBeanStalk": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBeanStalk.json"
+        },
+        "IBeethovenVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBeethovenVault.json"
+        },
+        "IBorrowerOperations": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBorrowerOperations.json"
+        },
+        "IBuildFinance": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBuildFinance.json"
+        },
+        "IBunnyZap": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IBunnyZap.json"
+        },
+        "ICErc20Delegate": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ICErc20Delegate.json"
+        },
+        "ICEtherDelegate": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ICEtherDelegate.json"
+        },
+        "IChain": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IChain.json"
+        },
+        "ICheatCodes": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ICheatCodes.json"
+        },
+        "ICointroller": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ICointroller.json"
+        },
+        "ICurvePool": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ICurvePool.json"
+        },
+        "IDOODLENFTXVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IDOODLENFTXVault.json"
+        },
+        "IDaiFlashloan": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IDaiFlashloan.json"
+        },
+        "IDeiLenderSolidex": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IDeiLenderSolidex.json"
+        },
+        "IERC1820Registry": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IERC1820Registry.json"
+        },
+        "IERC20": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IERC20.json"
+        },
+        "IERC20Metadata": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IERC20Metadata.json"
+        },
+        "IERC721": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IERC721.json"
+        },
+        "IERC777": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IERC777.json"
+        },
+        "IElevenNeverSellVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IElevenNeverSellVault.json"
+        },
+        "IFBep20Delegator": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IFBep20Delegator.json"
+        },
+        "IFTS": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IFTS.json"
+        },
+        "IFlashLoanRecipient": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IFlashLoanRecipient.json"
+        },
+        "IFortressPriceOracle": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IFortressPriceOracle.json"
+        },
+        "IFortubeBank": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IFortubeBank.json"
+        },
+        "IGovernorAlpha": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IGovernorAlpha.json"
+        },
+        "IGrimBoostVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IGrimBoostVault.json"
+        },
+        "IHarvestUsdcVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IHarvestUsdcVault.json"
+        },
+        "ILand": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ILand.json"
+        },
+        "ILendingPool": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ILendingPool.json"
+        },
+        "ILib": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ILib.json"
+        },
+        "ILiquidityMigrationV2": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ILiquidityMigrationV2.json"
+        },
+        "ILpDepositor": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ILpDepositor.json"
+        },
+        "IMasterChef": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IMasterChef.json"
+        },
+        "INFTXVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/INFTXVault.json"
+        },
+        "INOVO": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/INOVO.json"
+        },
+        "IOmni": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IOmni.json"
+        },
+        "IOneRingVault": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IOneRingVault.json"
+        },
+        "IOpyn": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IOpyn.json"
+        },
+        "IOracle": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IOracle.json"
+        },
+        "IPancakePair": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IPancakePair.json"
+        },
+        "IPancakeRouter": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IPancakeRouter.json"
+        },
+        "IPriceFeed": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IPriceFeed.json"
+        },
+        "IRToken": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IRToken.json"
+        },
+        "IRedactedCartelSafeERC20": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IRedactedCartelSafeERC20.json"
+        },
+        "IRevest": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IRevest.json"
+        },
+        "IRewardsHypervisor": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IRewardsHypervisor.json"
+        },
+        "IRouter": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IRouter.json"
+        },
+        "ISSPv4": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ISSPv4.json"
+        },
+        "ISimplePriceOracle": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ISimplePriceOracle.json"
+        },
+        "ISushiSwap": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ISushiSwap.json"
+        },
+        "ITreasureMarketplaceBuyer": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/ITreasureMarketplaceBuyer.json"
+        },
+        "IUSDC": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IUSDC.json"
+        },
+        "IUSDT": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IUSDT.json"
+        },
+        "IUniswapV2Factory": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IUniswapV2Factory.json"
+        },
+        "IUniswapV2Pair": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IUniswapV2Pair.json"
+        },
+        "IUniswapV2Router": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IUniswapV2Router.json"
+        },
+        "IUnitroller": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IUnitroller.json"
+        },
+        "IVaultFlipToFlip": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IVaultFlipToFlip.json"
+        },
+        "IVyper": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IVyper.json"
+        },
+        "IWBNB": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IWBNB.json"
+        },
+        "IWFTM": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IWFTM.json"
+        },
+        "IcurveYSwap": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IcurveYSwap.json"
+        },
+        "IfFTS": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IfFTS.json"
+        },
+        "InotVerified": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/InotVerified.json"
+        },
+        "IvVISR": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/IvVISR.json"
+        },
+        "MonoToken": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/MonoToken.json"
+        },
+        "MonoXPool": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/MonoXPool.json"
+        },
+        "Monoswap": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/Monoswap.json"
+        },
+        "MultiSig": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/MultiSig.json"
+        },
+        "Pool": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/Pool.json"
+        },
+        "Surge": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/Surge.json"
+        },
+        "TransferHelper": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/TransferHelper.json"
+        },
+        "USDC": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/USDC.json"
+        },
+        "USDT": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/USDT.json"
+        },
+        "UniV2Pair": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/UniV2Pair.json"
+        },
+        "UniV2Router": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/UniV2Router.json"
+        },
+        "Uni_Router_V3": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/Uni_Router_V3.json"
+        },
+        "VyperContract": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/VyperContract.json"
+        },
+        "WBNB": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/WBNB.json"
+        },
+        "WETH": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/WETH.json"
+        },
+        "WETH9": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/WETH9.json"
+        },
+        "crAMP": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/crAMP.json"
+        },
+        "crETH": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "ICheatCodes.sol/crETH.json"
+        }
+      }
+    },
+    "test/utils/Utilities.sol": {
+      "lastModificationDate": 1679757024329,
+      "contentHash": "222c16c03358c0c3686f42a97850c059",
+      "sourceName": "test/utils/Utilities.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Utilities": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Utilities.sol/Utilities.json"
+        }
+      }
+    }
+  }
+}
